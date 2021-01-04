@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   grid-area: header;
-  background: linear-gradient(135deg, #8844ee, #b07dfb);
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
+  border-bottom: 1.5px solid  #E0E0E0;
 
   img {
     max-width: 200px;
@@ -20,10 +20,8 @@ export const Header = styled.header`
   nav a {
     display: block;
     padding: 10px;
-    color: white;
+    color: #888888;
     font-size: 1.125em;
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
     transition: 0.1s;
   }
 

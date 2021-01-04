@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <>
       <Header>
-        <a href="#" class="logo">
+        <a href="#" className="logo">
           <img src="" alt="Guilherme Motto logo"></img>
         </a>
         <nav>

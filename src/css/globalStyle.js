@@ -2,7 +2,6 @@ import {createGlobalStyle} from 'styled-components'
 
 export default createGlobalStyle`
  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
 body,
 p,
 h1,
@@ -23,9 +22,10 @@ blockquote {
 
 body {
   font-family: Roboto,  sans-serif;
- -webkit-font-smoothing: antialiased;
-}
-
+  -webkit-font-smoothing: antialiased;
+  background-color: #FFFFFF;
+ }
+ 
 li {
   list-style: none;
 }
@@ -47,7 +47,7 @@ button {
 
 .avatar {
   max-width: 200px;
-  border-radius: 50%;
 }
 
-`
+
+`;
