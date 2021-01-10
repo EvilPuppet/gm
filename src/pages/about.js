@@ -1,18 +1,18 @@
 import React from "react";
-import Logo from "../components/logo";
 import Navigation from "../components/navigation";
 import Footer from '../components/footer';
+import About from '../components/about';
 import GlobalStyle from "../css/globalStyle";
 
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <>
       <GlobalStyle />
       <Navigation />
-      <Logo />
+      <About />
       <Footer />
     </>
   );
 };
 
-export default IndexPage;
+export default AboutPage;

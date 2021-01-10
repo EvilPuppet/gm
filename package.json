@@ -30,6 +30,7 @@
     "gatsby-transformer-sharp": "^2.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-spring": "^8.0.27",
     "styled-components": "^5.2.1"
   }
 }

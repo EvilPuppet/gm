@@ -1,27 +1,40 @@
-import React from "react";
-import { Header } from "./style";
+import React, { useState, useEffect } from "react";
+import NavMenu from '../navMenu';
+import HamburgerMenu from '../hamburgerMenu';
 
 const Navigation = () => {
+
+  const [windowSize, setWindowSize] = useState({
+    width: undefined,
+    height: undefined,
+  });
+
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+    
+    window.addEventListener("resize", handleResize);
+    
+    handleResize();
+    
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  function isHamburgueMenu() {
+    return windowSize.width <= '500';
+  }
+  
   return (
     <>
-      <Header>
-        <a href="#" className="logo">
-          <img src="" alt="Guilherme Motto logo"></img>
-        </a>
-        <nav>
-          <ul>
-            <li>
-              <a href="#">SOBRE</a>
-            </li>
-            <li>
-              <a href="#">PORTFOLIO</a>
-            </li>
-            <li>
-              <a href="#">BLOG</a>
-            </li>
-          </ul>
-        </nav>
-      </Header>
+    { isHamburgueMenu() ? <HamburgerMenu open={open} setOpen={setOpen} /> :
+      <NavMenu />
+    }
     </>
   );
 };

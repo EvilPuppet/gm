@@ -8,25 +8,21 @@ const SocialMedia = () => {
   return (
     <>
     <Container className="social">
-      <nav>
-        <ul>
-          <li>
-            <a href="#" alt="github">
-              <img src={github} />
-            </a>
-          </li>
-          <li>
-            <a href="#" alt="linkedin">
-              <img src={linkedin} />
-            </a>
-          </li>
-          <li>
-            <a href="#" alt="twitter">
-              <img src={twitter} />
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <div className="item">
+        <a href="#" alt="github">
+          <img src={github} />
+        </a>
+      </div>
+      <div className="item">
+        <a href="#" alt="linkedin">
+          <img src={linkedin} />
+        </a>
+      </div>
+      <div className="item">
+        <a href="#" alt="twitter">
+          <img src={twitter} />
+        </a>
+      </div>
     </Container>
     </>
   );

@@ -1,24 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  
-
-
-  nav ul {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  nav a {
-    display: block;
-    padding: 10px;
-    color: #888888;
-    font-size: 1.125em;
-    transition: 0.1s;
-  }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
 
   img {
       max-width:30px;
   } 
+
+  .item {
+    margin: 0 auto;
+    width: 30px;
+  }
 `;
 
