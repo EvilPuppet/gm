@@ -2,6 +2,9 @@ module.exports = {
   pathPrefix: "/gm",
   siteMetadata: {
     title: "guilherme-motta",
+    description: "Guilherme Motta | Software Enginner",
+    author: "Guilherme Motta",
+    siteUrl: "https://evilpuppet.github.io/gm",
   },
   plugins: [
     "gatsby-plugin-styled-components",
