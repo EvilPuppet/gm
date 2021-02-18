@@ -1,10 +1,10 @@
 module.exports = {
-  pathPrefix: "/gm",
+  pathPrefix: "/guilherme-motta",
   siteMetadata: {
     title: "guilherme-motta",
     description: "Guilherme Motta | Software Enginner",
     author: "Guilherme Motta",
-    siteUrl: "https://evilpuppet.github.io/gm",
+    siteUrl: "https://evilpuppet.github.io/guilherme-motta",
   },
   plugins: [
     "gatsby-plugin-styled-components",
