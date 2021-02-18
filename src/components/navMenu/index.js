@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import { Header } from "./style";
 
 const NavMenu = () => {
-  
   return (
     <>
       <Header>
@@ -13,13 +12,13 @@ const NavMenu = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/about">SOBRE</Link>
+              <Link to="/about">ABOUT</Link>
             </li>
             <li>
               <Link to="/portfolio">PORTFOLIO</Link>
             </li>
             <li>
-              <Link href="#">BLOG</Link>
+              <Link href="/blog">BLOG</Link>
             </li>
           </ul>
         </nav>
