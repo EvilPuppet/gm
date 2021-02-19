@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: "Guilherme Motta | Software Enginner",
     description: `Guilherme Motta | Software Enginner, Progrmador, JAVA, JAVASCRIPT, PHP, WORDPRESS, CSS, HTML`,
-    author: `Guilherme Faustino da motta Motta`,
+    author: `Guilherme Faustino da Motta`,
     siteUrl: "https://guilhermefmotta.github.io/site",
   },
   plugins: [
