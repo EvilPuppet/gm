@@ -1,10 +1,9 @@
 import React from "react";
-import Navigation from "../components/navigation";
-import Footer from '../components/footer';
-import GlobalStyle from "../css/globalStyle";
 import Card from '../components/card';
 import { animated, useSpring } from 'react-spring';
 import styled from "styled-components";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const H3 = styled(animated.h3)`
     text-align: center;
@@ -18,14 +17,14 @@ const H3 = styled(animated.h3)`
 `;
 
 const Portfolio = () => {
-  const props = useSpring({opacity: 1, from: {opacity: 0}})
+  const props = useSpring({opacity: 1, from: {opacity: 0}}) 
   return (
     <>
-      <GlobalStyle />
-      <Navigation />
-      <H3 style={props}>PORTFOLIO</H3>
+      <Layout>
+      <SEO title="Portfolio | Guilherme Motta | Software Enginner" />
+      <H3 style={props} alt="titulo-porfolio">PORTFOLIO</H3>
       <Card style={props} />
-      <Footer />
+      </Layout>
     </>
   );
 };

@@ -26,7 +26,7 @@ function HamburgerMenu({ open, setOpen}) {
               <Link to="/portfolio">PORTFOLIO</Link>
             </li>
             <li>
-              <Link href="#">BLOG</Link>
+              <Link to="/blog">BLOG</Link>
             </li>
           </ul>
         </nav>

@@ -3,7 +3,7 @@ import MM from "../../images/screenshot.jpeg";
 import { Container } from './style';
 
 
-function Card() {
+function Card() { 
   return (
       <>
         <Container>

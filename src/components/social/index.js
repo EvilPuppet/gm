@@ -9,18 +9,18 @@ const SocialMedia = () => {
     <>
     <Container className="social">
       <div className="item">
-        <a href="#" alt="github">
-          <img src={github} />
+        <a href="https://github.com/guilhermefmotta" alt="github-link">
+          <img src={github} alt="github" />
         </a>
       </div>
       <div className="item">
-        <a href="#" alt="linkedin">
-          <img src={linkedin} />
+        <a href="https://www.linkedin.com/in/guilherme-motta-31a964142/" alt="linkedin-link">
+          <img src={linkedin} alt="linkedin" />
         </a>
       </div>
       <div className="item">
-        <a href="#" alt="twitter">
-          <img src={twitter} />
+        <a href="https://twitter.com/Guilher59366957" alt="twitter-link">
+          <img src={twitter} alt="twitter" />
         </a>
       </div>
     </Container>

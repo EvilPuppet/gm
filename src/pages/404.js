@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import SEO from '../components/seo';
 
 // styles
 const pageStyles = {
@@ -28,6 +29,7 @@ const codeStyles = {
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
+      <SEO title="404 | Guilherme Motta | Software Enginner" />
       <title>Not found</title>
       <h1 style={headingStyles}>Page not found</h1>
       <p style={paragraphStyles}>

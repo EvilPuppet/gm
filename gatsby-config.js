@@ -1,10 +1,10 @@
 module.exports = {
   pathPrefix: "/guilherme-motta/",
   siteMetadata: {
-    title: "guilherme-motta",
-    description: "Guilherme Motta | Software Enginner",
-    author: "Guilherme Motta",
-    siteUrl: "https://evilpuppet.github.io/guilherme-motta",
+    title: "Guilherme Motta | Software Enginner",
+    description: `Guilherme Motta | Software Enginner, Progrmador, JAVA, JAVASCRIPT, PHP, WORDPRESS, CSS, HTML`,
+    author: `Guilherme Faustino da motta Motta`,
+    siteUrl: "https://guilhermefmotta.github.io/site",
   },
   plugins: [
     "gatsby-plugin-styled-components",
@@ -22,9 +22,9 @@ module.exports = {
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/favicon.png`,
       },
     },
     {
